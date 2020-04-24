@@ -4,7 +4,7 @@
   "description": "Resiliency for Node Microservices",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,13 @@
   "bugs": {
     "url": "https://github.com/TheMagoo73/node-r8e/issues"
   },
-  "homepage": "https://github.com/TheMagoo73/node-r8e#readme"
+  "homepage": "https://github.com/TheMagoo73/node-r8e#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "moch": "0.0.1",
+    "nyc": "^15.0.1",
+    "sinon": "^9.0.2",
+    "sinon-chai": "^3.5.0"
+  }
 }

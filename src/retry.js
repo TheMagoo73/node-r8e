@@ -40,14 +40,13 @@ const retryableExecute = async (options, ...args) => {
         }
 
         if(res.succeeded) {
-            return res.results
+            return res.result
         }
         else {
             return res.abortedValue
         }
     }
     catch(e) {
-        console.log(e.message)
         return options.abortedValue
     }
 
