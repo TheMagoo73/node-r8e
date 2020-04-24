@@ -1,0 +1,29 @@
+{
+  "name": "node-r8e",
+  "version": "0.0.1-alpha.1",
+  "description": "Resiliency for Node Microservices",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMagoo73/node-r8e.git"
+  },
+  "keywords": [
+    "node",
+    "microservices",
+    "resiliency",
+    "circuit-breaker",
+    "retry",
+    "bulkhead",
+    "fallback",
+    "timeout"
+  ],
+  "author": "John Clarke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheMagoo73/node-r8e/issues"
+  },
+  "homepage": "https://github.com/TheMagoo73/node-r8e#readme"
+}
